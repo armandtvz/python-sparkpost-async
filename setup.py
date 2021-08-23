@@ -9,7 +9,7 @@ description = (
 
 setuptools.setup(
     name='sparkpost-async',
-    version='0.1',
+    version='0.2',
     author='Armandt van Zyl',
     author_email='armandtvz@gmail.com',
     description=description,
@@ -35,5 +35,7 @@ setuptools.setup(
     install_requires=[
         'Django>=3.0',
         'sparkpost',
+        'django_dramatiq',
+        'dramatiq',
     ],
 )
